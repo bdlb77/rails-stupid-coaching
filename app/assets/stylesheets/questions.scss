@@ -1,0 +1,47 @@
+.container{
+	display: block;
+	align-content: center;
+}
+.form {
+	width: 400px;
+	border-radius: 5px;
+	display: flex;
+	height: 40px;
+}
+#text{
+	width: 400px;
+  border-radius: 5px;
+}
+
+#btn {
+  background-color: #2da5b6;
+  color: white;
+  border: 1px solid #999999;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-weight: lighter;
+  opacity: 0.6;
+  &:hover {
+  	opacity: 1;
+  	text-decoration: none;
+  	color: white;
+    cursor: hand;
+  }
+}
+
+.card{
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  background: linear-gradient(to right, #323232 1%, white 1%);
+  p{
+    margin-left: 10px;
+  }
+  h3{
+    margin-left: 10px;
+  }
+}
+#coach{
+  background: linear-gradient(to right, #323232 1%, #d3e9e3 1%);
+}
+
